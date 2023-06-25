@@ -688,6 +688,7 @@ span{
     .bfr{
         display: none;
     }
+
     .flash-sale{
         width: 100%;
         height: auto;
@@ -772,7 +773,182 @@ span{
     
 }
 
+@media (max-width:480px){
+     
+      .container{
+        width: 100%;
+        height: auto;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        position: fixed;
+    }
+    .nav1{
+
+        .nav{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            position: fixed;
+        }
+        .nav1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .contact{
+            width: 60%;
+            font-size: 8px;
+        }
+        .content{
+            display: none;
+        }
+        .location{
+            width: 30%;
+            font-size: 8px;
+        }
+    }
+        .nav2{
+            width: 100%;
+            height: auto;
+        }
+        .logo{
+            width: 40%;
+            margin-left: 90px;  
+          }
+        .input-box{
+            display: none;
+        }
+        .profile{
+            width: 150px;
+        }
+        .profile li{
+            font-size: 12px;
+            height: 15px;
+        }
+        .menu-1{
+            display: none;
+        }
+        .pic-page{
+            width: 100%;
+            height: auto;
+            margin-top: 40px;
+        }
+        .pic-page img{
+            width: 100%;
+            height: 430px;
+        }
+        .notification-bar{
+            width: 100%;
+            height: auto;
+            padding-left: 20px;
+            padding-bottom: 30px;
+        }
+        .shipping{
+            font-size: 7px;
+        }
+        .delivery{
+            font-size: 7px;
+        }
+        .info{
+            font-size: 7px;
+        }
+        .bfr{
+            display: none;
+        }
+        .flash-sale{
+            width: 100%;
+            height: auto;
+        }
+        .flash-sale h2{
+            font-size: 15px;
+        }
+        .box{
+            width: 80%;
+            height: 380px;
+        }
+        .box p{
+            padding-left: 40px;
+            padding-top: 20px;
+        }
+        .category{
+            width: 100%;
+            height: auto;
+        }
+        .category h2{
+            font-size: 18px;
+        }
+        .col-1{
+            width: 80%;
+            height: 400px;
+        }
+        .deal{
+            width: 100%;
+            height: auto;
+        }
+        .deal h3{
+            font-size: 15px;
+            padding-left: 40px;
+        }
+        .col{
+            width: 80%;
+            height: 350px;
+        }
+        .pic-page-2{
+            width: 100%;
+            height: 420px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .pic-1 {
+            width: 85%;
+            height: 200px;
+            padding-right: 20px;
+        }
+        .pic-2 {
+            width: 50%;
+            height: 200px;
+        }
+        .pic-1 img{
+            width: 100%;
+            height: 200px;
+        }
+        .pic-2 img{
+            width: 90%;
+            height: 200px;
+        }
+        .last-page{
+            width: 100%;
+            height: auto;
+            padding-right: 20px;
+            padding-bottom: 40px;
+        }
+        .city{
+            width: 90%;
+            height: auto;
+            padding-left: 40px;
+        }
+        .city ul{
+            width: 100%;
+            padding-left: 20px;
+            font-size: 6px;
+            border:1px solid red
+        }
+        .box-8{
+            display: none;
+        }
+        .footer-link{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 15px; 
+        }
+        .footer-link h5{
+            font-size: 11px;
+        }
 
 
-
-
+}
